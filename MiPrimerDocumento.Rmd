@@ -19,7 +19,7 @@ Ciencia que utiliza conjuntos de datos numéricos para obtener, a partir de ello
 
 ## Inferencial (subtitulo)
 
-Este es un subtitulo
+Este es un subtitulo.
 
 ### (subtitulo 2)
 
