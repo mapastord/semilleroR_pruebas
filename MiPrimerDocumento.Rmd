@@ -1,0 +1,75 @@
+---
+title: "Elementos basicos de Rmarkdown"
+author: "Miguel Angel Pastor"
+date: "10 de septiembre de 2018"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# ¿qué es estadística?
+
+Ciencia que utiliza conjuntos de datos numéricos para obtener, a partir de ellos, inferencias basadas en el cálculo de probabilidades.
+
+
+## Inferencial (subtitulo)
+
+Este es un subtitulo
+
+### (subtitulo 2)
+
+
+Este es un subtitulo con encabezado tipo (###)
+
+#viñetas 
+
+Las viñetas en Rmarkdown se agragan con los operadores: +, -, o *.
+
+  + viñeta 1
+      * subviñeta 1
+      + subviñeta 2 
+      - subviñeta 3
+          * subviñeta 3.1
+  - viñeta 2
+  * viñeta 3
+  
+  # agregando una imagen
+  
+  ![](nasa.png)
+  
+  
+  <center>
+  ![](nasa.png)
+  <center>
+  
+  # como se crea un hipervinculo 
+  
+  + primera forma (directa)
+  
+  https://github.com/mapastord/semilleroR_pruebas
+  
+  +segunda forma 
+  
+  [mi repositorio](https://github.com/mapastord/semilleroR_pruebas)
+  
+  # pciones de texto 
+  
+  *esto es cursiva*
+  
+  **esto es negrilla**
+  
+  ***esto es negrilla y cursiva***
+  
+  
+```{r}
+plot(iris)
+
+```
+  
+  
+  
