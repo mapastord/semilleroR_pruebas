@@ -26,7 +26,7 @@ Este es un subtitulo
 
 Este es un subtitulo con encabezado tipo (###)
 
-#viñetas 
+# viñetas 
 
 Las viñetas en Rmarkdown se agragan con los operadores: +, -, o *.
 
@@ -38,26 +38,26 @@ Las viñetas en Rmarkdown se agragan con los operadores: +, -, o *.
   - viñeta 2
   * viñeta 3
   
-  # agregando una imagen
+# agregando una imagen
   
   ![](nasa.png)
   
   
   <center>
   ![](nasa.png)
-  <center>
+  </center>
   
-  # como se crea un hipervinculo 
+# como se crea un hipervinculo 
   
   + primera forma (directa)
   
   https://github.com/mapastord/semilleroR_pruebas
   
-  +segunda forma 
+  + segunda forma 
   
   [mi repositorio](https://github.com/mapastord/semilleroR_pruebas)
   
-  # pciones de texto 
+# pciones de texto 
   
   *esto es cursiva*
   
